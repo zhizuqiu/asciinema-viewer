@@ -2,13 +2,9 @@
 
 asciinema文件展示
 
-## 功能
-
-
-
 ## build
 
-先将前端项目asciinema-viewer-ui生成的`dist目录`和`index_prod.html`复制到`static`和`views`目录下
+先将前端项目iview-project生成的`dist目录`和`index_prod.html`复制到`static`和`views`目录下
 
 linux:
 
