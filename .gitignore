@@ -10,8 +10,3 @@
 *.exe
 *.exe~
 asciinema-viewer
-/iview-project/node_modules
-/iview-project/.idea
-/iview-project/dist
-/iview-project/index.html
-/iview-project/index_prod.html
