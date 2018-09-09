@@ -8,6 +8,7 @@
 /WebRoot/WEB-INF/classes
 /.myeclipse/
 *.exe
+*.exe~
 asciinema-viewer
 /iview-project/node_modules
 /iview-project/.idea
