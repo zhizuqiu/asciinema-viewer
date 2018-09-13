@@ -38,4 +38,12 @@ windows:
 .\asciinema-viewer.exe
 ```
 
-## config
+## docker 
+
+```
+docker run -d -p 8006:8080 \
+--restart=always \
+--privileged=true \
+-v $HOME/app/asciinema-view-data:/data/upload \
+zhizuqiu/asciinema-viewer:latest
+```

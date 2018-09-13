@@ -6,6 +6,7 @@ COPY conf /data/conf
 COPY static /data/static
 COPY views /data/views
 COPY upload /data/upload
+RUN chmod +x /data/asciinema-viewer
 
 EXPOSE 8080
 
