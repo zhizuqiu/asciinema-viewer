@@ -11,7 +11,8 @@
                 multiple
                 type="drag"
                 name="myfile"
-                show-upload-list="false"
+                :show-upload-list=false
+                :on-success="handleRead"
                 action="/file/Upload">
             <div style="padding: 20px 0">
                 <Icon type="ios-cloud-upload" size="52" style="color: #3399ff"></Icon>
